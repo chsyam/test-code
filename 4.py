@@ -4,9 +4,11 @@ for i in range(256):
     row = list(map(int,input().split()))
     matrix.append(row)
 
+# initialising all the edges and top,left to minimum 
+# right and bottom to maximum
+
 top = 256
 left = 256
-
 right = 0
 bottom = 0
 
